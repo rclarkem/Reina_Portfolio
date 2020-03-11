@@ -262,4 +262,85 @@ body {
 	background-color: #29f3c3;
 }
 
-.blogSection
+.projectSection h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.filter {
+	text-align: center;
+	width: 95%;
+}
+
+.filter a {
+	color: #272727;
+	border: 2px solid;
+	padding: 10px 18px;
+	display: block;
+	text-decoration: none;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.filter .current {
+	background-color: #29f3c3;
+	border-color: #29f3c3;
+}
+
+.projectSection .heading {
+	text-align: center;
+	padding: 40px;
+	width: 100%;
+}
+
+.items {
+	margin-left: 125px;
+}
+
+.itemsContainer {
+	width: 100%;
+	/* margin: 50px; */
+}
+
+.items li {
+	padding: 10px;
+	display: inline-block;
+}
+
+.items a {
+	background-color: #29f3c3;
+	width: 40px;
+	height: 40px;
+	position: relative;
+	display: inline-block;
+}
+
+.items li img {
+	width: 100%;
+}
+
+.items .item {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+.items .icons {
+	position: absolute;
+	width: 90px;
+	height: 40px;
+	left: 50%;
+	top: 70%;
+	margin: -20px auto 0 -47px;
+	text-align: center;
+	z-index: 3;
+}
+
+.items .icons i {
+	color: white;
+	font-size: 20px;
+	margin-top: 9px;
+}
