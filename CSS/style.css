@@ -395,3 +395,45 @@ body {
 	-ms-trans-webkit-transform: scale(1.05, 1.05);
 	-o-transform: scale(1.05, 1.05);
 }
+
+.copyrightSection {
+	background-color: #272727;
+	padding: 30px 5px;
+	color: #29f3c3;
+}
+
+.copyrightSection p {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+}
+
+.socialIcons {
+	font-size: 25px;
+}
+
+.socialIcons a {
+	color: #29f3c3;
+}
+
+.socialIcons nav {
+	z-index: 1;
+}
+
+.nav {
+	padding: 10px;
+	margin: 10px 20px;
+	opacity: 60%;
+}
+
+.nav a {
+	padding: 5px;
+	font-size: 22px;
+}
+.nav a:hover {
+	color: #29f3c3;
+}
+
+.nav-item {
+	color: #29f3c3;
+}
