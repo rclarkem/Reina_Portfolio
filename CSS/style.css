@@ -291,12 +291,13 @@ body {
 }
 
 .items {
-	left: 100px;
+	/* left: 100px; */
+	padding: 0;
 }
 
 .items li {
 	display: inline-block;
-	padding: 5px;
+	padding: 10px;
 }
 
 .itemsContainer {
@@ -305,6 +306,11 @@ body {
 
 .items li img {
 	width: 100%;
+	-webkit-transition: all 0.2s linear, 1s;
+	-moz-transition: all 0.2s linear, 1s;
+	-o-transition: all 0.2s linear, 1s;
+	-ms-transition: all 0.2s linear, 1s;
+	-transition: all 0.2s linear, 1s;
 }
 
 .items .item {
@@ -380,4 +386,12 @@ body {
 
 .items .item:hover .projectLink {
 	right: 0px;
+}
+
+.items .item:hover img {
+	-webkit-transform: scale(1.05, 1.05);
+	-moz-trans-webkit-transform: scale(1.05, 1.05);
+	-o-trans-webkit-transform: scale(1.05, 1.05);
+	-ms-trans-webkit-transform: scale(1.05, 1.05);
+	-o-transform: scale(1.05, 1.05);
 }
