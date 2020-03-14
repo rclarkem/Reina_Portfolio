@@ -412,12 +412,10 @@ body {
 	font-size: 25px;
 }
 
-.socialIcons a {
-	color: #29f3c3;
-}
+.socialIcons a,
 .socialIcons a:hover {
-	text-decoration: none;
 	color: #29f3c3;
+	text-decoration: none;
 }
 
 .socialIcons nav {
@@ -430,15 +428,45 @@ body {
 	opacity: 60%;
 }
 
-.nav a {
+.nav a,
+.nav a:hover {
 	padding: 5px;
 	font-size: 22px;
-}
-.nav a:hover {
 	color: #29f3c3;
 	text-decoration: none;
 }
 
 .nav-item {
 	color: #29f3c3;
+}
+
+#navigationBar {
+	width: 100%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 200;
+	background-color: #272727;
+	padding: 20px 10px;
+	z-index: 100;
+}
+
+#navigationBar li {
+	padding: 0 10px;
+}
+
+#navigationBar li a {
+	color: white;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+	color: white;
+}
+
+.navbar-toggler-icon {
+	background: url(../Public/icons/icons8-menu-150.png);
+}
+
+.fixedNav #navigationBar {
+	position: fixed;
+	top: 0;
 }
