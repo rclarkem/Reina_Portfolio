@@ -415,6 +415,10 @@ body {
 .socialIcons a {
 	color: #29f3c3;
 }
+.socialIcons a:hover {
+	text-decoration: none;
+	color: #29f3c3;
+}
 
 .socialIcons nav {
 	z-index: 1;
@@ -432,6 +436,7 @@ body {
 }
 .nav a:hover {
 	color: #29f3c3;
+	text-decoration: none;
 }
 
 .nav-item {
