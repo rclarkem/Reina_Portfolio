@@ -88,6 +88,17 @@ $(document).ready(function() {
 		return false
 	})
 
+	$('#navigationBar li a').click(function(e) {
+		e.preventDefault()
+		let target = $(this).attr('href')
+		if (target !== 'https://medium.com/@rclarke_m') {
+			let targetPos = $(target).offset().top
+			$('html, body').animate({ scrollTop: targetPos - 50 }, 'slow')
+		} else {
+			window.open(target, '_blank')
+		}
+	})
+
 	const nav = $('#navigationBar')
 	const navTop = nav.offset().top
 
