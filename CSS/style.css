@@ -336,7 +336,8 @@ body {
 	margin-top: 9px;
 }
 
-.items a {
+.items .projectLink,
+.items .openButton {
 	width: 40px;
 	height: 40px;
 	background-color: #29f3c3;
@@ -348,6 +349,10 @@ body {
 	-o-transition: all 0.2s linear, 0.2s;
 	-ms-transition: all 0.2s linear, 0.2s;
 	-transition: all 0.2s linear, 0.2s;
+}
+.demo {
+	font-family: 'Oswald', sans-serif;
+	color: #272727;
 }
 
 .items .imageOverlay {
