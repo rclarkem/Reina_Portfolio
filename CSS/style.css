@@ -107,6 +107,25 @@ body {
 	max-width: 100%;
 }
 
+/* #about h4 {
+	text-align: center;
+}
+
+.resumeButton {
+	color: #272727;
+	padding: 15px 20px;
+	display: inline-block;
+	margin-top: 20px;
+	border: 1px solid;
+	border-radius: 1px;
+}
+
+.resumeButton:hover {
+	text-decoration: none;
+	color: #29f3c3;
+	background-color: #272727;
+} */
+
 .skillsSection {
 	background-color: #272727;
 	color: white;
