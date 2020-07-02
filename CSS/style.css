@@ -371,7 +371,7 @@ body {
 }
 .demo {
 	font-family: 'Oswald', sans-serif;
-	color: #272727;
+	color: #007bff;
 }
 
 .items .imageOverlay {
@@ -510,4 +510,8 @@ body {
 	width: 100%;
 	height: 100%;
 	background: url(../Public/img/91.gif) center center no-repeat;
+}
+
+a.coming-soon {
+	color: black
 }
