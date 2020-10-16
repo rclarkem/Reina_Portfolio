@@ -95,7 +95,7 @@ $(document).ready(function () {
   $('#navigationBar li a').click(function (e) {
     e.preventDefault();
     let target = $(this).attr('href');
-    if (target !== 'https://medium.com/@rclarke_m') {
+    if (target !== 'https://rclarke-m.medium.com') {
       let targetPos = $(target).offset().top;
       $('html, body').animate({ scrollTop: targetPos - 50 }, 'slow');
     } else {
