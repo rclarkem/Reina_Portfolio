@@ -150,6 +150,10 @@ body {
   padding-top: 40px;
 }
 
+.skill i {
+  font-size: 100px;
+}
+
 .chart {
   position: relative;
   width: 152px;
